@@ -1,0 +1,25 @@
+.dtable, th, td{
+    margin: auto;
+    border: solid black 2px;
+    border-width: 2px;
+    border-collapse: separate;
+}
+* {
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: -2;
+    opacity: 20%;
+}
